@@ -6,7 +6,7 @@ const findAllUsers = () => {
 };
 
 const findUsersById = (id) => {
-const user = usersCrudDB.find(item => item.id = id);
+const user = usersCrudDB.find(item => item.id == id);
     return user;
 
 };
